@@ -1,0 +1,25 @@
+.dropdown {
+  position: relative;
+  width: 200px;
+}
+.dropdown > button {
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu {
+  position: absolute;
+  top: 33px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.close {
+  display: none;
+}
+.menu button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
